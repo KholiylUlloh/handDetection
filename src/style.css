@@ -1,0 +1,33 @@
+.webcam {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+    width: 680px;
+    height: 480px;
+  }
+  .canvas {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+    width: 680px;
+    height: 480px;
+  }
+  .container {
+    text-align: center;
+   }
+
+   .header{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+   }
